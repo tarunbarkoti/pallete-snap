@@ -100,12 +100,13 @@ You can now access the application by navigating to **http://localhost:8080** in
 
 ---
 
+## Developed By
+
+**Tarun Barkoti**
+
+---
+
 ## License
 
 This project is licensed under the **MIT License**. Feel free to use it, fork it, and remix it!
 
----
-
-## Author
-
-**Tarun Barkoti**
