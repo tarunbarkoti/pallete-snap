@@ -43,36 +43,44 @@ Great for designers, developers, and anyone who finds color inspiring.
 ## Setup Instructions
 
 ### 1. Clone the Repo
+```bash
 git clone https://github.com/tarunbarkoti/pallette-snap.git
 cd PaletteSnap
+```
 
 ### 2. Install Dependencies & Set Up Environment
 First, ensure you have PHP 8+, Composer, and MySQL installed. Then run the following commands:
-Generated bash
+```bash
 composer install
 cp .env.example .env
 php spark key:generate
+```
 
 ### 3. Configure the Database
 Open the .env file you just created and update the database credentials:
-Generated ini
+```ini
 database.default.hostname = localhost
 database.default.database = palettesnap
 database.default.username = root
 database.default.password = your_password
+```
 
 Once configured, run the database migration to create the necessary tables:
-
+```bash
 php spark migrate
+```
 
 ### 4. Install ColorThief Library
 This might already be handled by composer install, but if not, run:
-Generated bash
+```bash
 composer require ksubileau/color-thief-php
+```
 
 
 ### 5. Run the Development Server
-php spark serve```
+```bash
+php spark serve
+```
 You can now access the application by navigating to **http://localhost:8080** in your browser.
 
 ---
