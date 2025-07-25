@@ -87,7 +87,7 @@ You can now access the application by navigating to **http://localhost:8080** in
 
 ## Why I Built This
 
-I wanted to explore something creative with image processing and make a tool that’s genuinely helpful for visual creators. It’s a simple idea, but one that could grow into something powerful for designers and developers looking for quick inspiration.
+> I built this project to get hands-on with CodeIgniter 4, as I'm exploring and contributing to some existing CI-based codebases.
 
 ---
 
@@ -103,3 +103,9 @@ I wanted to explore something creative with image processing and make a tool tha
 ## License
 
 This project is licensed under the **MIT License**. Feel free to use it, fork it, and remix it!
+
+---
+
+## Author
+
+**Tarun Barkoti**
