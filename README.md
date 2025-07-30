@@ -96,7 +96,7 @@ You can now access the application by navigating to **http://localhost:8080** in
 -   [ ] Implement a search feature to find palettes by tag.
 -   [ ] Add user accounts for saving personal palettes.
 -   [ ] Create a REST API to fetch palette data by its ID.
--   [ ] Develop a feature for suggesting palettes based on themes (e.g., "sunset," "forest").
+-   [ ] Develop a feature for suggesting palettes based on themes (e.g., "sunset," "forest", "clouds").
 
 ---
 
